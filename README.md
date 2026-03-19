@@ -5,27 +5,22 @@ Orthogonal List for Sparse Matrix Storage & Transposition
 
 本项目采用 C++ 语言实现 ** 十字链表（Orthogonal List）** 数据结构，专为稀疏矩阵量身打造，解决传统二维数组存储稀疏矩阵导致的内存浪费问题。完整实现稀疏矩阵的动态创建、控制台打印、矩阵转置以及内存销毁功能，是数据结构中链式存储的经典实践，适合课程设计、算法学习与源码研读。
 This project implements the Orthogonal List data structure in C++, specifically designed for sparse matrices to solve the memory waste caused by traditional 2D array storage. It fully supports dynamic creation, console printing, matrix transposition and memory destruction of sparse matrices, which is a classic practice of linked storage in data structures, suitable for curriculum design, algorithm learning and source code research.
-核心功能
 
-十字链表节点定义，行 + 列双向链式存储稀疏矩阵
+#核心功能
+##十字链表节点定义，行 + 列双向链式存储稀疏矩阵
 手动输入矩阵行列数与元素，自动跳过零元素节省内存
 原始矩阵格式化打印，控制台直观展示矩阵结构
 矩阵转置运算，快速实现行列互换
 完整内存释放，避免内存泄漏
+
 Orthogonal List node definition, bidirectional linked storage of sparse matrices by row & column
 Manually input matrix rows, columns and elements, automatically skip zero elements to save memory
 Formatted printing of original matrix, intuitively display matrix structure in console
 Matrix transposition operation, quickly realize row-column exchange
 Complete memory release to avoid memory leaks
-项目结构
 
-plaintext
-
-
-
-
-
-Orthogonal-List-Sparse-Matrix/
+#项目结构
+##Orthogonal-List-Sparse-Matrix/
 ├── main.cpp       # 核心源码文件（结构定义+功能实现）
 └── README.md      # 项目说明文档
 数据结构
